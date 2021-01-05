@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none; }
+
+body {
+  line-height: 1; }
+
+menu, ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Black.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 600;
+  src: url("../fonts/Nunito-SemiBold.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 900;
+  src: url("../fonts/Nunito-Black.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 700;
+  src: url("../fonts/Nunito-Bold.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 500;
+  src: url("../fonts/Nunito-Regular.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-weight: 300;
+  src: url("../fonts/Nunito-Light.ttf"); }
+
+@font-face {
+  font-family: "Nunito";
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/Nunito-LightItalic.ttf"); }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.4rem;
+  font-family: "Monnserat", sans-serif;
+  font-weight: 900;
+  color: #415167; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.decoration-cube {
+  height: 900px;
+  width: 305px;
+  position: absolute;
+  background-color: #415167; }
+  .decoration-cube--prewiev {
+    right: 0;
+    height: 770px; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
+  height: 100%; }
+
+.main {
+  background-color: #F9FBFF;
+  overflow: hidden;
+  display: flex;
+  padding: 0 0 0 0; }
+
+.main-info {
+  display: flex;
+  justify-content: space-between; }
+
+.main-logo {
+  margin-top: 4rem; }
+
+.main-menu {
+  display: flex;
+  color: #fff;
+  background-color: #415167; }
+
+.main-descr {
+  padding-right: 10rem; }
+
+.main-menu__sidebar {
+  width: 38rem; }
+
+.main-text {
+  position: absolute;
+  width: 47rem;
+  margin-top: 18rem;
+  color: #415167;
+  font-weight: 900;
+  font-size: 5.4rem; }
+  .main-text span {
+    color: #fff;
+    background-color: #C7A17A;
+    line-height: 7rem;
+    display: block;
+    width: 50rem; }
+
+.all-subtitle {
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600; }
+
+.all-title {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px; }
+
+.carts {
+  margin-top: 105px;
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: space-between; }
+
+.advantages-cart {
+  width: 225px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  text-align: center; }
+
+.advantages-cart__title {
+  margin-top: 65px;
+  font-weight: 700; }
+
+.advantages-cart__descr {
+  margin-top: 20px;
+  font-weight: 300; }

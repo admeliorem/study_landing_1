@@ -1,0 +1,39 @@
+.all-subtitle{
+    padding-top: 90px;
+    text-align: center;
+    
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.all-title{
+    padding-top: 20px;
+    text-align: center;
+    
+    font-size: 30px;
+}
+
+.carts{
+    margin-top: 105px;
+    margin-bottom: 110px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-cart{
+    width: 225px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.advantages-cart__title{
+    margin-top: 65px;
+    font-weight: 700;
+}
+
+.advantages-cart__descr {
+    margin-top: 20px;
+    font-weight: 300;
+}

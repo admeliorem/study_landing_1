@@ -1,5 +1,46 @@
-body {
-    background-color: black;
-    font-size: 21px;
-    color: white;
+@import '../node_modules/reset-css/sass/_reset';
+@import 'fonts';
+@import 'vars';
+@import 'mixins';
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
+
+body {
+    font-size: 1.4rem;
+    font-family: "Monnserat", sans-serif;
+    font-weight: 900; 
+    color: $primary;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.decoration-cube {
+    height: 900px;
+    width: 305px;
+    position: absolute;
+
+    background-color: $primary;
+
+    &--prewiev{
+        right: 0;
+        height: 770px;
+    }
+}
+
+//blocks
+
+@import 'blocks/container';
+@import 'blocks/main';
+@import 'blocks/advantages';
+@import 'blocks/product';

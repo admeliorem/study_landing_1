@@ -1,0 +1,50 @@
+.main{
+    background-color: #F9FBFF;
+    overflow: hidden;
+
+    display: flex;
+    padding: 0 0 0 0;
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo{
+    margin-top: 4rem;
+}
+
+.main-menu{
+    display: flex;
+    
+    color: $white;
+    background-color: $primary;
+}
+
+.main-descr{
+    padding-right: 10rem;
+}
+
+.main-menu__sidebar{
+    width: 38rem;
+}
+
+.main-text{
+    position: absolute;
+    width: 47rem;
+    margin-top: 18rem;
+    color: $primary;
+
+    font-weight: 900;
+    font-size: 5.4rem;
+
+    span{
+        color: $white;
+        background-color: #C7A17A;
+
+        line-height: 7rem;
+        display: block;
+        width: 50rem;
+    }
+}
